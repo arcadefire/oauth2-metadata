@@ -1,6 +1,6 @@
 {
   "client_id":"https://arcadefire.github.io/oauth2-metadata/api/client_metadata.json",
-  "application_type":"mobile",
+  "application_type":"native",
   "grant_types":[
     "authorization_code",
     "refresh_token"
@@ -11,7 +11,7 @@
     "code"
   ],
   "redirect_uris":[
-    ""
+    "org.angmarc.whale:/oauth2redirect"
   ],
   "dpop_bound_access_tokens":true,
   "token_endpoint_auth_method":"none",
