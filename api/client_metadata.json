@@ -16,6 +16,6 @@
   "dpop_bound_access_tokens":true,
   "token_endpoint_auth_method":"none",
   "client_name":"Test KMP mobile client",
-  "client_uri":""
+  "client_uri":"https://arcadefire.github.io"
 }
 
