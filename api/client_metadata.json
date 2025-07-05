@@ -1,0 +1,21 @@
+{
+  "client_id":"https://github.com/bsky/oauth/client-metadata.json",
+  "application_type":"mobile",
+  "grant_types":[
+    "authorization_code",
+    "refresh_token"
+  ],
+  "scope":"atproto transition:generic transition:chat.bsky",
+  "response_types":[
+    "code id_token",
+    "code"
+  ],
+  "redirect_uris":[
+    ""
+  ],
+  "dpop_bound_access_tokens":true,
+  "token_endpoint_auth_method":"none",
+  "client_name":"Test KMP mobile client",
+  "client_uri":""
+}
+
