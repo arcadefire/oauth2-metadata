@@ -1,21 +1,20 @@
 {
-  "client_id":"https://arcadefire.github.io/oauth2-metadata/api/client_metadata.json",
-  "application_type":"native",
-  "grant_types":[
+  "client_id": "https://arcadefire.github.io/oauth2-metadata/api/client_metadata.json",
+  "application_type": "native",
+  "grant_types": [
     "authorization_code",
     "refresh_token"
   ],
-  "scope":"atproto transition:generic transition:chat.bsky",
-  "response_types":[
-    "code id_token",
+  "scope": "atproto transition:generic transition:chat.bsky",
+  "response_types": [
     "code"
   ],
-  "redirect_uris":[
-    "org.angmarc.whale:/oauth2redirect"
+  "redirect_uris": [
+    "io.github.arcadefire:/oauth2redirect"
   ],
-  "dpop_bound_access_tokens":true,
-  "token_endpoint_auth_method":"none",
-  "client_name":"Test KMP mobile client",
-  "client_uri":"https://arcadefire.github.io"
+  "dpop_bound_access_tokens": true,
+  "token_endpoint_auth_method": "none",
+  "client_name": "Test KMP mobile client",
+  "client_uri": "https://arcadefire.github.io"
 }
 
